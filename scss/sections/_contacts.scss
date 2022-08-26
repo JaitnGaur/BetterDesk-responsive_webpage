@@ -1,0 +1,34 @@
+// @import "../components/buttons";
+.section-clients {
+  background-color: $color-lightgrey;
+}
+
+%circular-btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.section-contact {
+  &__para {
+    color: $color-grey;
+  }
+  &__list {
+    max-width: 215px;
+  }
+  &__tele {
+    @extend %circular-btn;
+    background-image: linear-gradient(
+      to bottom right,
+      #3dbdb6 6%,
+      #0089ce 100%
+    );
+  }
+  &__helpdesk {
+    @extend %circular-btn;
+    background-image: linear-gradient(to top left, #7a86cc 91%, #9facf8);
+  }
+  &__chat {
+    @extend %circular-btn;
+    background-image: linear-gradient(to bottom, #f3778f, #f26a95 44%, #f15a9d);
+  }
+}

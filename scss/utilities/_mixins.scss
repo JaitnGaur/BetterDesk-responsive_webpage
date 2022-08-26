@@ -1,0 +1,23 @@
+// @mixin flex($justify, $align) {
+//   display: flex;
+//   justify-content: $justify;
+//   align-items: $align;
+// }
+@mixin font($fs, $lh: normal, $ls: normal) {
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+
+// @mixin ps-abs(
+//   $top: initial,
+//   $left: initial,
+//   $bottom: initial,
+//   $right: initial
+// ) {
+//   position: absolute;
+//   top: $top;
+//   left: $left;
+//   right: $right;
+//   bottom: $bottom;
+// }

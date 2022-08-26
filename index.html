@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title>BetterDesk</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="d-flex d-flex-between">
+          <div class="ham-div">
+            <a href="javascript:void(0)"
+              ><img
+                height="24px"
+                width="123px"
+                class="header__brand-logo"
+                src="./images/brand-logo.svg"
+                alt="brand-logo"
+            /></a>
+            <div class="ham-div__btn">
+              <span class="ham-div__bars"></span>
+              <span class="ham-div__bars"></span>
+              <span class="ham-div__bars"></span>
+            </div>
+          </div>
+          <ul class="d-flex-center header__nav-lists">
+            <li class="header__nav-list px-s text-ss">
+              <a class="font-white opacity-m" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="header__nav-list px-s text-ss">
+              <a class="font-white opacity-m" href="javascript:void(0)"
+                >Products</a
+              >
+            </li>
+            <li class="header__nav-list px-s text-ss">
+              <a class="font-white opacity-m" href="javascript:void(0)">Demo</a>
+            </li>
+            <li class="header__nav-list px-s text-ss">
+              <a class="font-white opacity-m" href="javascript:void(0)"
+                >Resources</a
+              >
+            </li>
+            <li class="header__nav-list px-s text-ss mr-xs">
+              <a class="font-white opacity-m" href="javascript:void(0)"
+                >Sign In</a
+              >
+            </li>
+            <li class="header__nav-list text-ss no-hover">
+              <a
+                class="font-white opacity-m border p-link border-r-s hover-link"
+                href="javascript:void(0)"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-section pos-r">
+      <div class="container d-flex d-flex-align">
+        <div class="hero-section__centerbox font-white">
+          <h1 class="hero-section__heading heading-lg mb-lg">
+            Build a <br />company your customers love.
+          </h1>
+          <div>
+            <div class="float-l pos-r">
+              <input class="hero-section__input opacity-l" type="text" />
+              <label
+                class="hero-section__input-label pos-a text-sm-lh opacity-m"
+                >Enter your work email</label
+              >
+            </div>
+            <button
+              class="hero-section__submitbtn text-ss-lh-ls font-white fw-bold"
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+
+        <img
+          class="hero-section__image pos-a"
+          src="./images/hero-logo.svg"
+          alt="hero-logo:cycling"
+        />
+      </div>
+    </section>
+
+    <main>
+      <section class="section-clients py-m">
+        <div class="container">
+          <ul class="d-flex-wrap d-flex-center">
+            <li class="mr-lg">
+              <a href="javascript:void(0)">
+                <picture
+                  ><source
+                    srcset="
+                      ./images/basecamp.png,
+                      ./images/basecamp@2x.png 2x,
+                      ./images/basecamp@3x.png 3x
+                    " />
+                  <img
+                    src="./images/basecamp.png"
+                    alt="Company:Basecamp" /></picture
+              ></a>
+            </li>
+            <li class="mr-lg">
+              <a href="javascript:void(0)">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/grubhub.png,
+                      ./images/grubhub@2x.png 2x,
+                      ./images/grubhub@3x.png 3x
+                    "
+                  />
+                  <img
+                    src="./images/grubhub.png"
+                    alt="Company:Grubhub"
+                  /> </picture
+              ></a>
+            </li>
+            <li class="mr-lg">
+              <a href="javascript:void(0)">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/trello.png,
+                      ./images/trello@2x.png 2x,
+                      ./images/trello@3x.png 3x
+                    "
+                  />
+                  <img
+                    src="./images/trello.png"
+                    alt="comapny:Trello"
+                  /> </picture
+              ></a>
+            </li>
+            <li class="mr-lg">
+              <a href="javascript:void(0)">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/buffer.png,
+                      ./images/buffer@2x.png 2x,
+                      ./images/buffer@3x.png 3x
+                    "
+                  />
+                  <img
+                    src="./images/buffer.png"
+                    alt="comapny:Buffer"
+                  /> </picture
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/pocket.png,
+                      ./images/pocket@2x.png 2x,
+                      ./images/pocket@3x.png 3x
+                    "
+                  />
+                  <img
+                    src="./images/pocket.png"
+                    alt="comapny:pocket"
+                  /> </picture
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-contact py-lg">
+        <div class="container text-center">
+          <h2 class="heading-sm mb-lg font-dark">
+            Let's make customer support interaction <br /><b>more human</b> &
+            <b>more reliable</b>.
+          </h2>
+          <ul class="d-flex-center d-flex-wrap">
+            <li class="section-contact__list d-flex-center d-flex-column mr-ml">
+              <div class="section-contact__tele d-flex-center mb-m">
+                <img
+                  height="37px"
+                  width="37px"
+                  src="./images/telephone.svg"
+                  alt="telephone logo"
+                />
+              </div>
+              <h3 class="font-dark mb-m">Support</h3>
+              <p class="section-contact__para mb-s text-sm-lh-ls fw-semibold">
+                Vestibulum rutrum quam vitae fringilla tincid.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+            <li class="section-contact__list d-flex-center d-flex-column mr-ml">
+              <div class="section-contact__helpdesk d-flex-center mb-m">
+                <img
+                  height="37px"
+                  width="37px"
+                  src="./images/helpdesk.svg"
+                  alt="helpdesk logo"
+                />
+              </div>
+              <h3 class="font-dark mb-m">Support</h3>
+              <p class="section-contact__para mb-s text-sm-lh-ls fw-semibold">
+                Vestibulum rutrum quam vitae fringilla tincid.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+            <li class="section-contact__list d-flex-center d-flex-column">
+              <div class="section-contact__chat d-flex-center mb-m">
+                <img
+                  height="37px"
+                  width="37px"
+                  src="./images/chat.svg"
+                  alt="chat logo"
+                />
+              </div>
+              <h3 class="font-dark mb-m">Support</h3>
+              <p class="section-contact__para mb-s text-sm-lh-ls fw-semibold">
+                Vestibulum rutrum quam vitae fringilla tincid.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-betterdesk">
+        <div class="container text-center font-white">
+          <h2 class="heading-md-ls mb-ml">Why BetterDesk</h2>
+          <p class="text-md-lh mb-xl">
+            Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec
+            viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin
+            ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque
+            ligula. Maecenas eu varius risus, eu aliquet arcu.
+          </p>
+          <div class="d-flex-center d-flex-wrap">
+            <div class="mr-lg">
+              <div class="section-betterdesk__business-support text-left">
+                <h3 class="text-lg">Support for growing business</h3>
+                <p class="text-ss-lh">
+                  Donec facilisis tortor ut augue lacinia, at viverra est
+                  semper. Sed sapien metus, scelerisque nec pharetra id, tempor
+                  a tortor. Pellentesque non dignissim neque. Ut porta.
+                </p>
+              </div>
+              <p class="text-lg text-left ml-m font-darkblue">
+                1 billion interactions per year<br />
+                Minimal effort<br />
+                Maximum knowledge
+              </p>
+            </div>
+            <div>
+              <picture>
+                <source
+                  srcset="
+                    ./images/to-do-list.png,
+                    ./images/to-do-list@2x.png 2x,
+                    ./images/to-do-list@3x.png 3x
+                  "
+                />
+                <img
+                  class="full-width full-height"
+                  height="461px"
+                  width="521px"
+                  src="./images/to-do-list.png"
+                  alt="to-do list"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-aboutus py-lg">
+        <div class="container text-center">
+          <h2 class="heading-md font-darkgrey mb-xxl">Learn More About Us</h2>
+          <ul class="d-flex-wrap d-flex-center">
+            <li class="mr-s section-aboutus__list">
+              <picture>
+                <source
+                  srcset="
+                    ./images/women-monitor.jpg,
+                    ./images/women-monitor@2x.jpg 2x,
+                    ./images/women-monitor@3x.jpg 3x
+                  "
+                />
+                <img
+                  class="mb-ml full-width full-height obj-cover"
+                  height="280px"
+                  width="350px"
+                  src="./images/women-monitor.jpg"
+                  alt="women with monitor"
+                />
+              </picture>
+              <p class="mb-ml text-md font-paynegrey">
+                Vestibulum rutrum quam vitae<br />fringilla.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+            <li class="mr-s section-aboutus__list">
+              <picture>
+                <source
+                  srcset="
+                    ./images/book.jpg,
+                    ./images/book@2x.jpg 2x,
+                    ./images/book@3x.jpg 3x
+                  "
+                />
+                <img
+                  class="mb-ml full-width full-height obj-cover"
+                  height="280px"
+                  width="350px"
+                  src="./images/book.jpg"
+                  alt="writing on book"
+                />
+              </picture>
+              <p class="mb-ml text-md font-paynegrey">
+                Lorem ipsum dolor sit amet, consectetur adipiscin.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+            <li class="section-aboutus__list">
+              <picture>
+                <source
+                  srcset="
+                    ./images/men-computer.jpg,
+                    ./images/men-computer@2x.jpg 2x,
+                    ./images/men-computer@3x.jpg 3x
+                  "
+                />
+                <img
+                  class="mb-ml full-width full-height obj-cover"
+                  height="280px"
+                  width="350px"
+                  src="./images/men-computer.jpg"
+                  alt="men with computer"
+                />
+              </picture>
+              <p class="mb-ml text-md font-paynegrey">
+                Fusce vehicula dolor arcu, sit <br />amet blan.
+              </p>
+              <a class="text-link fw-semibold" href="javascript:void(0)"
+                >Learn More <i class="fas fa-angle-right text-xs ml-s"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-achievement py-m">
+        <div class="container d-flex d-flex-between d-flex-align d-flex-wrap">
+          <div class="font-white">
+            <p class="text-xl mb-m">
+              <span class="text-xxl fw-bold">BetterDesk</span> is recognized as
+              top Unified Communications <br />
+              provider in 2016 Magic Quandrant
+            </p>
+            <a
+              href="javascript:void(0)"
+              class="font-white text-underline text-sm"
+              >Read Report</a
+            >
+          </div>
+          <div>
+            <picture>
+              <source
+                srcset="
+                  ./images/gartner.png,
+                  ./images/gartner@2x.png 2x,
+                  ./images/gartner@3x.png 3x
+                "
+              />
+              <img
+                height="54px"
+                width="240px"
+                src="./images/gartner.png"
+                alt="gartner"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-video">
+        <div class="pos-r">
+          <video class="section-video__video"></video>
+          <figure class="pos-a section-video-fig">
+            <picture class="pos-r">
+              <source
+                srcset="
+                  ./images/video-woman.jpg,
+                  ./images/video-woman@2x.jpg 2x,
+                  ./images/video-woman@3x.jpg 3x
+                "
+              />
+              <img
+                class="section-video__video-img opacity-m"
+                src="./images/video-woman.jpg"
+              />
+            </picture>
+            <figcaption
+              class="pos-a section-video__figcap text-center font-white d-flex d-flex-column d-flex-align"
+            >
+              <p class="heading-md-lh fw-thin mb-ml">
+                <i>
+                  “When BetterDesk was introduced, our business grows a lot —
+                  Strongly recommend.”</i
+                >
+              </p>
+              <p class="text-md mb-lg">Sharon Herrera at Buffer</p>
+              <p class="section-video__playbtn d-flex-center">
+                <span class="section-video__playbtn-triangle"></span>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="container">
+          <ul class="d-flex-center py-m d-flex-wrap">
+            <li class="d-flex d-flex-align mr-lg">
+              <img
+                class="border-r-l section-video__profile-img opacity-h"
+                src="https://media.istockphoto.com/photos/young-woman-ready-for-job-business-concept-picture-id1318482009?k=20&m=1318482009&s=612x612&w=0&h=gKTlFuaTRj4GEAaTQWYqXkFRNYJ92BzXfx4ZLAKhFeE="
+                alt="user:Sharon Herrera"
+              />
+              <div class="ml-sm">
+                <p class="mb-s text-md opacity-h">Sharon Herrera</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/buffer.png,
+                      ./images/buffer@2x.png 2x,
+                      ./images/buffer@3x.png 3x
+                    "
+                  />
+                  <img
+                    height="18px"
+                    width="90px"
+                    src="./images/buffer.png"
+                    alt="comapny:Buffer"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="d-flex d-flex-align mr-lg">
+              <img
+                class="border-r-l section-video__profile-img opacity-h"
+                src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg"
+                alt="user:Diana Moreno"
+              />
+              <div class="ml-sm">
+                <p class="mb-s text-md opacity-h">Diana Moreno</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/buffer.png,
+                      ./images/buffer@2x.png 2x,
+                      ./images/buffer@3x.png 3x
+                    "
+                  />
+                  <img
+                    height="18px"
+                    width="90px"
+                    src="./images/buffer.png"
+                    alt="comapny:Buffer"
+                  />
+                </picture>
+              </div>
+            </li>
+            <li class="d-flex d-flex-align mr-lg">
+              <img
+                class="border-r-l section-video__profile-img opacity-h"
+                src="https://qph.cf2.quoracdn.net/main-qimg-7fb93146f5e4e470f5a590d2fc38be3b-lq"
+                alt="user:Diane Tran"
+              />
+              <div class="ml-sm">
+                <p class="mb-s text-md opacity-h">Diane Tran</p>
+                <picture
+                  ><source
+                    srcset="
+                      ./images/basecamp.png,
+                      ./images/basecamp@2x.png 2x,
+                      ./images/basecamp@3x.png 3x
+                    " />
+                  <img
+                    height="32px"
+                    width="138px"
+                    src="./images/basecamp.png"
+                    alt="Company:Basecamp"
+                /></picture>
+              </div>
+            </li>
+            <li class="d-flex d-flex-align">
+              <img
+                class="border-r-l section-video__profile-img opacity-h"
+                src="https://writestylesonline.com/wp-content/uploads/2019/01/What-To-Wear-For-Your-Professional-Profile-Picture-or-Headshot.jpg"
+                alt="user:Julia Wilson"
+              />
+              <div class="ml-sm">
+                <p class="mb-s text-md opacity-h">Julia Wilson</p>
+                <picture>
+                  <source
+                    srcset="
+                      ./images/buffer.png,
+                      ./images/buffer@2x.png 2x,
+                      ./images/buffer@3x.png 3x
+                    "
+                  />
+                  <img
+                    height="18px"
+                    width="90px"
+                    src="./images/buffer.png"
+                    alt="comapny:Buffer"
+                  />
+                </picture>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-signin py-lg">
+        <div class="container text-center">
+          <h2 class="heading-md font-white mb-xl">
+            Great Products Deliver Happiness to Users
+          </h2>
+          <div class="d-inblock">
+            <div class="float-l pos-r">
+              <input
+                class="section-signin__input opacity-h"
+                type="text"
+                id="inp-2"
+              />
+              <label
+                for="inp-2"
+                class="hero-section__input-label pos-a text-sm-lh font-white"
+                >Enter your work email</label
+              >
+            </div>
+            <button
+              class="section-signin__submitbtn text-ss-lh-ls font-white fw-bold"
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-moreinfo py-ml">
+        <div class="container d-flex d-flex-between font-white d-flex-wrap">
+          <div class="d-flex d-flex-wrap">
+            <div class="mr-xxl">
+              <a href="javascript:void(0)"
+                ><img
+                  height="24px"
+                  width="123px"
+                  class="mb-m"
+                  src="./images/brand-logo.svg"
+                  alt="brand-logo"
+              /></a>
+              <p class="opacity-h text-xs-lh fw-thinner">
+                This template is created by<br />
+                @iamjoannajiang. UX Designer @<br />
+                <span class="text-underline">www.betterdesign.io</span>
+              </p>
+            </div>
+            <div class="d-flex d-flex-wrap">
+              <ul class="mr-xl">
+                <li>
+                  <a class="font-white text-ss" href="javascript:void(0)"
+                    >ABOUT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Our Mission</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Comapny</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Jobs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+              <ul class="mr-xl">
+                <li>
+                  <a class="font-white text-ss" href="javascript:void(0)"
+                    >SUPPORT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >FAQ</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Help Center</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Terms of Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a class="font-white text-ss" href="javascript:void(0)"
+                    >CONTACT</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Email Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-white text-link-lh opacity-h fw-thinner"
+                    href="javascript:void(0)"
+                    >Live Chat</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <a href="javascript:void(0)"
+              ><i class="fa-brands fa-twitter mr-xs opacity-h"></i
+            ></a>
+            <a href="javascript:void(0)"
+              ><i class="fa-brands fa-facebook-f mr-xs opacity-h"></i
+            ></a>
+            <a href="javascript:void(0)"
+              ><i class="fa-brands fa-linkedin-in opacity-h"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-m">
+      <div class="container text-center">
+        <p class="text-xs-footer font-white fw-thinner">
+          Thank you for downloading BetterDesk Sketch template. You are invited
+          to join 1300+ designers on UX Design Community on Slack at
+          www.uxdesigncommunity.com <br />
+          We look forward to see you there!
+        </p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

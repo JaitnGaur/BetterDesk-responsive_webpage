@@ -1,0 +1,75 @@
+.section {
+  &-betterdesk {
+    padding: 84px 0;
+    background-image: linear-gradient(
+      to bottom right,
+      #3dbdb6 3%,
+      #0089ce 100%
+    );
+    &__business-support {
+      max-width: 502px;
+      padding: 18px 30px 30px;
+      box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.1);
+      background-color: rgba(24, 144, 164, 0.5);
+    }
+  }
+
+  &-aboutus {
+    &__list {
+      max-width: 350px;
+    }
+  }
+
+  &-achievement {
+    background-image: linear-gradient(98deg, #1172d0 1%, #1d98d6 89%);
+  }
+
+  &-video {
+    &-fig {
+      width: 100%;
+      top: 0;
+      background-color: #081941;
+    }
+    &__video {
+      width: 100%;
+
+      &-img {
+        width: 100%;
+      }
+    }
+    &__figcap {
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__profile-img {
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
+    }
+    &__playbtn {
+      @extend %play-btn;
+      &-triangle {
+        @extend %play-btn-triangle;
+      }
+    }
+  }
+
+  &-signin {
+    background-color: $color-lightblue;
+    &__input {
+      @extend %input-signin;
+      background: transparent;
+      border: 1px solid $color-white;
+      box-shadow: 0 0 8px 0 rgba(177, 177, 177, 0.5);
+    }
+    &__submitbtn {
+      @extend %input-btn;
+      background-color: $color-white;
+      color: $color-lightblue;
+    }
+  }
+  &-moreinfo {
+    background-color: $color-secondary;
+  }
+}

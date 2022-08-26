@@ -1,0 +1,29 @@
+.hero {
+  &-section {
+    min-height: 684px;
+    background-color: $color-primary;
+    z-index: -2;
+    & .container {
+      min-height: 684px;
+    }
+    &__image {
+      right: 0;
+      bottom: -81px;
+      z-index: -1;
+    }
+    &__heading {
+      max-width: 343px;
+    }
+    &__input {
+      @extend %input-signin;
+
+      &-label {
+        @extend %input-label;
+      }
+    }
+    &__submitbtn {
+      @extend %input-btn;
+      background-color: $color-lightblue;
+    }
+  }
+}
