@@ -8,15 +8,12 @@ function changeBG() {
     else if ((scrollY < 50) & (hamopen == false)) {
         header.classList.remove('active');
     }
-    // hero.style.backgroundPositionY = scrollY * 1 + "px";
-    // console.log(scrollY * 1 + "px");
-
 }
 window.addEventListener('scroll', changeBG);
+
+
 //ham-btn
-
-
-let hambtn = document.querySelector(".ham-div__bars");
+let hambtn = document.querySelector(".ham-div__btn");
 let ul = document.querySelector(".header__nav-lists");
 let hamopen = false;
 hambtn.addEventListener("click", function () {
@@ -34,6 +31,22 @@ hambtn.addEventListener("click", function () {
         }
     }
 });
+//---------------Todo List----------------------
+let add = document.querySelector('#newtask-add');
+let newTask = document.querySelector('#newtask');
+let tasks = document.querySelector('#tasks');
+let todo_li = document.querySelector('.section-betterdesk__todo-list-li')
+add.onclick = function () {
+    if (newTask.value == '') { alert("add some Task first!"); }
+    else {
+        tasks.innerHTML += `<li class="section-betterdesk__todo-list-li d-flex d-flex-between px-xs d-flex-align"><div class="d-flex d-flex-column d-flex-align"><span class="section-betterdesk__todo-list-li-lcircle d-inblock"></span><span class="section-betterdesk__todo-list-li-line d-inblock"></span></div><span>${newTask.value}</span><div class="section-betterdesk__todo-list-li-rcircle"></div></li>`
+    }
+    newTask.value = '';
+}
+todo_li.onclick = function () {
+    if (this.style.opacity == 0.5) this.style.opacity = "1";
+    else this.style.opacity = "0.5";
+}
 //hero-parallax effect
 // let hero = document.querySelector('.hero-section');
 // window.addEventListener('scroll', function () {

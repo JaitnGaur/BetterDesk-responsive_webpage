@@ -12,6 +12,39 @@
       box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.1);
       background-color: rgba(24, 144, 164, 0.5);
     }
+    &__todo-list {
+      max-width: 521px;
+      width: 100%;
+      min-width: 280px;
+      height: 461px;
+      overflow: auto;
+      background-color: azure;
+      border-radius: 0 0 4px 4px;
+      &-inp {
+        width: 50%;
+        box-shadow: 0 0 1px 0 black;
+      }
+      &-li {
+        height: 50px;
+        &-lcircle {
+          height: 10px;
+          width: 10px;
+          border-radius: 50%;
+          background-color: red;
+        }
+        &-rcircle {
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          outline: $color-lightblue solid 2px;
+        }
+        &-line {
+          background-color: red;
+          width: 1px;
+          height: 40px;
+        }
+      }
+    }
   }
 
   &-aboutus {

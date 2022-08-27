@@ -69,14 +69,13 @@
           <h1 class="hero-section__heading heading-lg mb-lg">
             Build a <br />company your customers love.
           </h1>
-          <div>
-            <div class="float-l pos-r">
-              <input class="hero-section__input opacity-l" type="text" />
-              <label
-                class="hero-section__input-label pos-a text-sm-lh opacity-m"
-                >Enter your work email</label
-              >
-            </div>
+          <div class="d-flex d-flex-wrap">
+            <input
+              class="hero-section__input text-sm-lh font-white"
+              placeholder="Enter your work email"
+              type="text"
+            />
+
             <button
               class="hero-section__submitbtn text-ss-lh-ls font-white fw-bold"
               type="submit"
@@ -94,7 +93,7 @@
       </div>
     </section>
 
-    <main>
+    <main class="pos-r">
       <section class="section-clients py-m">
         <div class="container">
           <ul class="d-flex-wrap d-flex-center">
@@ -180,7 +179,7 @@
         </div>
       </section>
 
-      <section class="section-contact py-lg">
+      <section class="section-contact py-lg bg-white">
         <div class="container text-center">
           <h2 class="heading-sm mb-lg font-dark">
             Let's make customer support interaction <br /><b>more human</b> &
@@ -267,8 +266,19 @@
                 Maximum knowledge
               </p>
             </div>
-            <div>
-              <picture>
+            <div class="section-betterdesk__todo-list bg-white">
+              <div class="d-flex d-flex-between d-flex-align p-s">
+                <span class="text-ss font-dark">To Do List</span>
+                 <input type="text" id="newtask" class="section-betterdesk__todo-list-inp"></input>
+                <button id="newtask-add" class="text-ss bg-lightblue p-s font-white">Add</button>
+              </div>
+              <div class="bg-white">
+                <ul id="tasks" class="font-dark">
+                  <li class="section-betterdesk__todo-list-li d-flex d-flex-between px-xs d-flex-align"><div class="d-flex d-flex-column d-flex-align"><span class="section-betterdesk__todo-list-li-lcircle d-inblock"></span><span class="section-betterdesk__todo-list-li-line d-inblock"></span></div><span>sdf</span><div class="section-betterdesk__todo-list-li-rcircle"></div></li>
+               
+                </ul>
+              </div>
+              <!-- <picture>
                 <source
                   srcset="
                     ./images/to-do-list.png,
@@ -283,13 +293,13 @@
                   src="./images/to-do-list.png"
                   alt="to-do list"
                 />
-              </picture>
+              </picture> -->
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-aboutus py-lg">
+      <section class="section-aboutus py-lg bg-white">
         <div class="container text-center">
           <h2 class="heading-md font-darkgrey mb-xxl">Learn More About Us</h2>
           <ul class="d-flex-wrap d-flex-center">
@@ -403,7 +413,7 @@
         </div>
       </section>
 
-      <section class="section-video">
+      <section class="section-video bg-white">
         <div class="pos-r">
           <video class="section-video__video"></video>
           <figure class="pos-a section-video-fig">

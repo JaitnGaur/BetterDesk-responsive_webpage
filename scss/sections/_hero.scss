@@ -2,7 +2,8 @@
   &-section {
     min-height: 684px;
     background-color: $color-primary;
-    z-index: -2;
+    position: sticky;
+    top: 0;
     & .container {
       min-height: 684px;
     }

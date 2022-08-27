@@ -1,3 +1,17 @@
+.bg {
+  &-white {
+    background-color: $color-white;
+  }
+  &-primary {
+    background-color: $color-primary;
+  }
+  &-lightblue {
+    background-color: $color-lightblue;
+  }
+  &-dark {
+    background-color: $color-dark;
+  }
+}
 .font {
   &-white {
     color: $color-white;
@@ -243,6 +257,9 @@
 }
 //padding
 .p {
+  &-s {
+    padding: 10px;
+  }
   &-link {
     padding: 12px 20px;
   }
@@ -261,6 +278,9 @@
     }
   }
   &x- {
+    &xs {
+      padding: 0 10px;
+    }
     &s {
       padding: 0 18px;
     }
